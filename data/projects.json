@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1",
+    "title": "Neva Residences",
+    "location": "Dubai Marina",
+    "area": "Dubai Marina",
+    "priceFrom": "AED 1.2M",
+    "handover": "Q4 2025",
+    "image": "https://media.istockphoto.com/id/2189495681/photo/green-building-concept.jpg?s=612x612&w=0&k=20&c=tYgukCWgsmGWC_N4DJiLMZcMmXG2iVAZZyIvT0Tw68k=",
+    "city": "Dubai",
+    "whatsappLink": "https://wa.me/971501234567"
+  },
+  {
+    "id": "2",
+    "title": "Altus Tower 2",
+    "location": "Business Bay",
+    "area": "Business Bay",
+    "priceFrom": "AED 890K",
+    "handover": "Q2 2026",
+    "image": "https://media.istockphoto.com/id/2175144324/photo/looking-up-view-of-city-skyline-in-tokyo-japan.jpg?s=612x612&w=0&k=20&c=Z6ASSJ42xFMKuVjIuGB4mGKGg3Hny3fubIC9VQCaqx0=",
+    "city": "Dubai",
+    "whatsappLink": "https://wa.me/971501234567"
+    },
+      {
+    "id": "3",
+    "title": "Binghatti Grove",
+    "location": "Dubai South",
+    "area": "Dubai South",
+    "priceFrom": "AED 650K",
+    "handover": "Q1 2025",
+    "image": "https://media.istockphoto.com/id/2175144324/photo/looking-up-view-of-city-skyline-in-tokyo-japan.jpg?s=612x612&w=0&k=20&c=Z6ASSJ42xFMKuVjIuGB4mGKGg3Hny3fubIC9VQCaqx0=",
+    "city": "Dubai",
+    "whatsappLink": "https://wa.me/971501234567"
+  },
+  {
+    "id": "4",
+    "title": "Sapphire 32",
+    "location": "Downtown Dubai",
+    "area": "Downtown Dubai",
+    "priceFrom": "AED 2.1M",
+    "handover": "Q3 2025",
+    "image": "https://media.istockphoto.com/id/2191907519/photo/skyscraper-in-city-city-downtown-with-skyscraper-office-building-business-district-modern.jpg?s=612x612&w=0&k=20&c=nGGuf3ZfqA4AQJchgHg7LFrNB4RMoOltuWWjOEgD1_Q=",
+    "city": "Dubai",
+    "whatsappLink": "https://wa.me/971501234567"
+  },
+  {
+    "id": "5",
+    "title": "Capital Heights",
+    "location": "Al Reem Island",
+    "area": "Al Reem Island",
+    "priceFrom": "AED 1.5M",
+    "handover": "Q4 2025",
+    "image": "https://media.istockphoto.com/id/2175144324/photo/looking-up-view-of-city-skyline-in-tokyo-japan.jpg?s=612x612&w=0&k=20&c=Z6ASSJ42xFMKuVjIuGB4mGKGg3Hny3fubIC9VQCaqx0=",
+    "city": "Abu Dhabi",
+    "whatsappLink": "https://wa.me/971501234567"
+  },
+  {
+    "id": "6",
+    "title": "Oceanfront Residences",
+    "location": "Saadiyat Island",
+    "area": "Saadiyat Island",
+    "priceFrom": "AED 3.2M",
+    "handover": "Q2 2026",
+    "image": "https://media.istockphoto.com/id/2175144324/photo/looking-up-view-of-city-skyline-in-tokyo-japan.jpg?s=612x612&w=0&k=20&c=Z6ASSJ42xFMKuVjIuGB4mGKGg3Hny3fubIC9VQCaqx0=",
+    "city": "Abu Dhabi",
+    "whatsappLink": "https://wa.me/971501234567"
+  },
+  {
+    "id": "7",
+    "title": "Heritage Towers",
+    "location": "Al Majaz",
+    "area": "Al Majaz",
+    "priceFrom": "AED 780K",
+    "handover": "Q1 2026",
+    "image": "https://media.istockphoto.com/id/2175144324/photo/looking-up-view-of-city-skyline-in-tokyo-japan.jpg?s=612x612&w=0&k=20&c=Z6ASSJ42xFMKuVjIuGB4mGKGg3Hny3fubIC9VQCaqx0=",
+    "city": "Sharjah",
+    "whatsappLink": "https://wa.me/971501234567"
+  },
+  {
+    "id": "8",
+    "title": "Corniche Residence",
+    "location": "Ajman Corniche",
+    "area": "Ajman Corniche",
+    "priceFrom": "AED 520K",
+    "handover": "Q3 2025",
+    "image": "https://media.istockphoto.com/id/2175144324/photo/looking-up-view-of-city-skyline-in-tokyo-japan.jpg?s=612x612&w=0&k=20&c=Z6ASSJ42xFMKuVjIuGB4mGKGg3Hny3fubIC9VQCaqx0=",
+    "city": "Ajman",
+    "whatsappLink": "https://wa.me/971501234567"
+  },
+  {
+    "id": "9",
+    "title": "Mountain View Villas",
+    "location": "Al Hamra",
+    "area": "Al Hamra",
+    "priceFrom": "AED 1.8M",
+    "handover": "Q2 2025",
+    "image": "https://media.istockphoto.com/id/2175144324/photo/looking-up-view-of-city-skyline-in-tokyo-japan.jpg?s=612x612&w=0&k=20&c=Z6ASSJ42xFMKuVjIuGB4mGKGg3Hny3fubIC9VQCaqx0=",
+    "city": "Ras Al Khaimah",
+    "whatsappLink": "https://wa.me/971501234567"
+  },
+  {
+    "id": "10",
+    "title": "Lagoon Apartments",
+    "location": "UAQ Marina",
+    "area": "UAQ Marina",
+    "priceFrom": "AED 420K",
+    "handover": "Q4 2025",
+    "image": "https://media.istockphoto.com/id/2175144324/photo/looking-up-view-of-city-skyline-in-tokyo-japan.jpg?s=612x612&w=0&k=20&c=Z6ASSJ42xFMKuVjIuGB4mGKGg3Hny3fubIC9VQCaqx0=",
+    "city": "Umm Al Quwain",
+    "whatsappLink": "https://wa.me/971501234567"
+  }
+    
+
+]
