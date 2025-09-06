@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const connectDB = require('./config/db');
 
 const projectsRouter = require('./routes/projects');
-
+const projectDetailRoutes = require("./routes/projectDetailRoutes");
 const app = express();
 connectDB();
 
@@ -16,6 +16,8 @@ app.use(cors({ origin: process.env.FRONTEND_ORIGIN || '*' }));
 app.get('/api/health', (req, res) => res.json({ ok: true }));
 
 app.use('/api/projects', projectsRouter);
+app.use("/api/project-details", projectDetailRoutes);
+app.use("/api/appartments", require("./routes/appartmentsRoute"));
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
