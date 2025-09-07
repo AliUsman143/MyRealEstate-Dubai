@@ -10,6 +10,7 @@ const PropertyDetailSchema = new mongoose.Schema({
   images: [String],
   videos: [String],
   propertyType: String,
+  state: String,
   tags: [String],
   developer: String,
   isOffPlan: Boolean,
