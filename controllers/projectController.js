@@ -16,7 +16,7 @@ exports.listProjects = async (req, res) => {
 
     const skip = (Number(page) - 1) * Number(limit);
     const [projects, total] = await Promise.all([
-      Project.find(q).sort({ createdAt: -1 }).skip(skip).limit(Number(limit)),
+      Project.find(q).sort({ createdAt: -1 }).skip(skip).limit(Number(limit)).populate('developer'),
       Project.countDocuments(q)
     ]);
 
@@ -29,7 +29,7 @@ exports.listProjects = async (req, res) => {
 
 exports.getProject = async (req, res) => {
   try {
-    const proj = await Project.findById(req.params.id);
+    const proj = await Project.findById(req.params.id).populate('developer');
     if (!proj) return res.status(404).json({ message: 'Project not found' });
     res.json(proj);
   } catch (err) {

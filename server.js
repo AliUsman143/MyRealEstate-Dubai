@@ -4,8 +4,6 @@ const cors = require('cors');
 const morgan = require('morgan');
 const connectDB = require('./config/db');
 
-const projectsRouter = require('./routes/projects');
-const projectDetailRoutes = require("./routes/projectDetailRoutes");
 const app = express();
 connectDB();
 
@@ -15,11 +13,9 @@ app.use(cors({ origin: process.env.FRONTEND_ORIGIN || '*' }));
 
 app.get('/api/health', (req, res) => res.json({ ok: true }));
 
-app.use('/api/projects', projectsRouter);
-app.use("/api/project-details", projectDetailRoutes);
-
-
-app.use("/api/appartments", require("./routes/appartmentsRoute"));
+// app.use("/api/project-details", require("./routes/projectDetailRoutes"));
+// app.use("/api/appartments", require("./routes/appartmentsRoute"));
+app.use('/api/projects', require('./routes/projects'));
 app.use("/api/properties", require("./routes/propertyDetailRoutes"));
 app.use("/api/agencies", require("./routes/agencyRoutes"));
 app.use("/api/partners", require("./routes/partners"));

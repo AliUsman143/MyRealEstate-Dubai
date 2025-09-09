@@ -12,6 +12,7 @@ const projectSchema = new mongoose.Schema({
   image: { type: String },
   city: { type: String },
   whatsappLink: { type: String },
+  developer: { type: mongoose.Schema.Types.ObjectId, ref: 'Developer' },
 }, { timestamps: true });
 
 
