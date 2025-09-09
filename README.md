@@ -14,4 +14,6 @@ DELETE http://localhost:5000/api/properties/:id
 
 
 http://localhost:3000/api/agencies
-http://localhost:3000/api/partners/bulk
+http://localhost:3000/api/partners
+http://localhost:3000/api/agents
+http://localhost:3000/api/developers
