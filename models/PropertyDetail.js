@@ -12,7 +12,7 @@ const PropertyDetailSchema = new mongoose.Schema({
   propertyType: String,
   state: String,
   tags: [String],
-  developer: String,
+  developer: {type: mongoose.Schema.Types.ObjectId, ref: 'Developer'},
   isOffPlan: Boolean,
   paymentPlan: String,
   whatsappLink: String,
@@ -33,7 +33,7 @@ const PropertyDetailSchema = new mongoose.Schema({
   },
 
   validatedInfo: {
-    developer: String,
+    developer: {type: mongoose.Schema.Types.ObjectId, ref: 'Developer'},
     ownership: String,
     buildUpArea: String,
     usage: String,

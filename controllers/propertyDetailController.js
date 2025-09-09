@@ -3,7 +3,7 @@ const PropertyDetail = require("../models/PropertyDetail");
 // Get all properties
 exports.getAllProperties = async (req, res) => {
   try {
-    const properties = await PropertyDetail.find();
+    const properties = await PropertyDetail.find().populate('developer').populate('validatedInfo.developer');
     res.json(properties);
   } catch (err) {
     res.status(500).json({ message: err.message });
@@ -13,7 +13,7 @@ exports.getAllProperties = async (req, res) => {
 // Get single property by ID
 exports.getPropertyById = async (req, res) => {
   try {
-    const property = await PropertyDetail.findById(req.params.id);
+    const property = await PropertyDetail.findById(req.params.id).populate('developer').populate('validatedInfo.developer');
     if (!property) return res.status(404).json({ message: "Property not found" });
     res.json(property);
   } catch (err) {
