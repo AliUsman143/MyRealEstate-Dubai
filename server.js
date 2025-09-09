@@ -17,7 +17,12 @@ app.get('/api/health', (req, res) => res.json({ ok: true }));
 
 app.use('/api/projects', projectsRouter);
 app.use("/api/project-details", projectDetailRoutes);
+
+
 app.use("/api/appartments", require("./routes/appartmentsRoute"));
 app.use("/api/properties", require("./routes/propertyDetailRoutes"));
+app.use("/api/agencies", require("./routes/agencyRoutes"));
+app.use("/api/partners", require("./routes/partners"));
+
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
