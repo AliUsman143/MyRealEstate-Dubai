@@ -15,6 +15,8 @@ app.get('/api/health', (req, res) => res.json({ ok: true }));
 
 // app.use("/api/project-details", require("./routes/projectDetailRoutes"));
 // app.use("/api/appartments", require("./routes/appartmentsRoute"));
+app.use("/api/project-details", require("./routes/projectDetails"));
+
 app.use('/api/projects', require('./routes/projects'));
 app.use("/api/properties", require("./routes/propertyDetailRoutes"));
 app.use("/api/agencies", require("./routes/agencyRoutes"));
