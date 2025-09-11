@@ -23,6 +23,7 @@ app.use("/api/agencies", require("./routes/agencyRoutes"));
 app.use("/api/partners", require("./routes/partners"));
 app.use("/api/agents", require("./routes/agents"));
 app.use("/api/developers", require("./routes/developers"));
+app.use("/api/city-profiles", require("./routes/cityProfiles"));
 
 
 
