@@ -17,3 +17,4 @@ http://localhost:3000/api/agencies
 http://localhost:3000/api/partners
 http://localhost:3000/api/agents
 http://localhost:3000/api/developers
+http://localhost:5000/api/city-profiles
